@@ -18,6 +18,5 @@ jobs:
         port: ${{ secrets.port }}
         script: |
           cd sgfrota_teracomm
-          composer install
           git pull
           php artisan migrate --force
