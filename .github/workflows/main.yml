@@ -17,6 +17,7 @@ jobs:
         password: ${{ secrets.password }}
         port: ${{ secrets.port }}
         script: |
-          cd public_html
+          cd sgfrota_teracomm
+          composer install
           git pull
           php artisan migrate --force
