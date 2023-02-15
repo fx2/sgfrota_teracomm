@@ -84,7 +84,7 @@
                 </thead>
                 <tbody>
                     <tr style="text-align: center;">
-                        <td><img src="{{ public_path('images/headerprintPDF.png') }}" width="40%" height="90%"/></td>
+                        <td><img src="{{ public_path('images/sistemaFrota.jpeg') }}" width="40%" height="90%"/></td>
                     </tr>
                     <br>
                     <tr style="text-align: center;">
@@ -103,7 +103,7 @@
                 <th>
                     <p>_____________________________________________</p>
                     <p style="font-size: 12px;">Assinatura do Responsável.</p>
-                    <p style="font-size: 12px;" class="page">Rua Rodrigues Alves, 51, Jardim Albino Neves Arujá/SP - 07400-575 PABX: (11) 4652-7000 <span style="font-size: 12px;">{{date('d/m/Y')}}</span></p>
+                    {{-- <p style="font-size: 12px;" class="page">Rua Rodrigues Alves, 51, Jardim Albino Neves Arujá/SP - 07400-575 PABX: (11) 4652-7000 <span style="font-size: 12px;">{{date('d/m/Y')}}</span></p> --}}
                     <p style="font-size: 12px;" class="page">Pagina </p>
                 </th>
             </table>

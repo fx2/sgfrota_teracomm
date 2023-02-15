@@ -42,7 +42,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="{{ asset('images/brasaoaruja.jpg')}}" alt="Câmara de Arujá" height="50%" width="25%">
+    <img class="animation__shake" src="{{ asset('images/sistemaFrota.jpeg')}}" alt="Teracomm" height="50%" width="25%">
   </div>
 
   <!-- Navbar -->
@@ -68,7 +68,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Câmara Municipal de Arujá &copy; {{ date('Y') }}
+    <strong class="ml-5">Supreme móbile serviços Ltda &copy; {{ date('Y') }}
   </footer>
 
   <!-- Control Sidebar -->
